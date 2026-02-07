@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid rgba(255, 0, 0, 0.406); */
+}
+
+html{
+    background-color: black;
+}
+
+body {
+    background-color: #fffbf7;
+    border-radius: 20px;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    padding: 9px 20px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.054);
+    text-transform: capitalize;
+}
+
+.logo-holder>img {
+    width: 30px;
+    border-radius: 999px;
+}
+
+.logo-holder {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.layout {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0px 30px 0px 30px;
+    border-radius: 20px;
+    background: url("./img/bg3.png");
+    background-size: cover;
+}
+
+.header-content {
+    width: 50%;
+    padding: 100px 30px;
+}
+
+.header-content>div {
+    text-transform: capitalize;
+}
+
+.header-content>div {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 12px;
+}
+
+.header-content>h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card-holder {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1.3fr;
+    gap: 30px;
+
+}
+
+.card {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("./img/2.webp");
+    background-size: cover;
+    position: relative;
+}
+
+.card-heading-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-heading-holder>div {
+    padding: 9px 20px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.054);
+    text-transform: capitalize;
+}
+
+.card-heading-holder>button {
+    padding: 10px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.054);
+    text-transform: capitalize;
+}
+
+.card-heading-holder>button img {
+    width: 24px;
+    height: 24px;
+}
+
+.card-fotter {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.card-heading-holder {
+    z-index: 1;
+}
+
+.card2 {
+    background: url("./img/10.jpg");
+    background-size: cover;
+}
+
+.card3 {
+    background: url("./img/7.webp");
+    background-size: cover;
+}
+
+.card>.overlay {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0) 56%, rgba(0, 0, 0, 1) 100%);
+    opacity: 0.4;
+    border-radius: 20px;
+}
+
+/* .card-fotter-content-holder{
+    display:flex;
+    justify-content: space-between;
+} */
+.card-fotter-content-holder:nth-child(1) {
+    width: 60%;
+}
+
+.card-fotter-input-holder>input {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 999px;
+    border: 1.5px solid #ddd;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card-fotter-input-holder>input::placeholder {
+    color: aliceblue;
+}
+
+.card-fotter-input-holder>button {
+    position: absolute;
+    top: 20.5px;
+    ;
+    right: 0.5px;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 999px;
+    color: black;
+    background: rgba(225, 225, 225, 0.5);
+    backdrop-filter: blur(2px);
+    border: none;
+}
+
+.card-fotter-input-holder {
+    position: relative;
+}
