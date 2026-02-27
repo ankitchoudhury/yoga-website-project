@@ -24,7 +24,7 @@ nav {
 
 }
 
-a {
+nav a {
     padding: 9px 20px;
     border-radius: 999px;
     background-color: white;
@@ -187,15 +187,20 @@ a {
 .card-fotter-input-holder>button {
     position: absolute;
     top: 20.5px;
-    ;
-    right: 0.5px;
+    right: 1px;
     padding: 8px;
     margin: 2px;
     border-radius: 999px;
     color: black;
-    background: rgba(225, 225, 225, 0.5);
+    background: rgba(225, 225, 225, 0.859);
     backdrop-filter: blur(2px);
     border: none;
+    backdrop-filter: blur(7px);
+    border-top: 1px solid rgba(255, 255, 255, 0.411);
+    border-left: 1px solid rgba(255, 255, 255, 0.355);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.146);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 .card-fotter-input-holder {
@@ -263,6 +268,8 @@ a {
     width: 300px;
     /* background: url(img/plane\ bg\ 5.jpg); */
     background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 .box1 span {
@@ -296,6 +303,8 @@ a {
     border-radius: 20px;
     height: 400px;
     width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 .box3 {
@@ -309,6 +318,7 @@ a {
     border-radius: 20px;
     height: 400px;
     width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .box4 {
@@ -321,6 +331,7 @@ a {
     border-radius: 20px;
     height: 400px;
     width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .box {
@@ -346,8 +357,9 @@ a {
     color: rgb(236, 234, 234);
     border-top: 1px solid rgba(255, 250, 250, 0.344);
     border-left: 1px solid rgba(255, 250, 250, 0.407);
-    box-shadow: 3px 3px 3px rgba(255, 250, 250, 0.106);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 .glass-container {
     height: 300px;
     width: 550px;
@@ -358,4 +370,309 @@ a {
     border-top: 1px solid rgba(255, 255, 255, 0.411);
     border-left: 1px solid rgba(255, 255, 255, 0.355);
     box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.146);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.workshop-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px;
+}
+
+.workshop-container-1 {
+    color: whitesmoke;
+    padding: 30px;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+.workshop-container-1 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.workshop-container-2 {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+}
+
+.workshop-container-card1 {
+    height: 350px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url(img/workshop-cardbg4.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: left;
+}
+
+.workshop-container-card1 a {
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 20px;
+    padding: 9px 20px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.054);
+}
+
+.workshop-container-card2 {
+    height: 350px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url(img/workshop-cardbg6.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: left;
+}
+
+.workshop-container-card2 a {
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 20px;
+    padding: 9px 20px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.054);
+}
+
+.faq-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    height: 600px;
+    padding: 30px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.overlay-container {
+    position: relative;
+}
+
+.faq-section {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.faq-container-1 {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.faq-container-2 {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.faq-container-1 button {
+    color: black;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 13px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    border: 1.5px solid rgba(128, 128, 128, 0.51);
+}
+
+.faq-container-1 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.faq-container-2 .faq {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 3px 4px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.faq-bold {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.faq p {
+    padding: 20px 0px 0px 0px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 30px;
+    background-color: #e9eafdc1;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -50px;
+    color: rgba(17, 16, 16, 0.934);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.fotter-heading {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+
+
+}
+
+#heading {
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(17, 16, 16, 0.934);
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.button-holder {
+    gap: 3px;
+    justify-content: center;
+    background-color: rgb(244, 245, 246);
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.button-holder div {
+    font-weight: 520;
+    font-size: 13px;
+}
+
+.button-holder img {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+
+.fotter-content {
+    gap: 100px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.followus-logo-holder img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.fotter-content-container1 {
+    width: 40%;
+}
+
+.fotter-content-container2 {
+    gap: 10px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.content label {
+    color: #4d4d4d8b;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.content h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content {
+    height: 200px;
+    width: auto;
+}
+
+.content p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.no-border {
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.copyright-container {
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 13px;
+    border-top: 3px solid rgba(128, 128, 128, 0.237);
+    color: #4d4d4d;
+}
+
+.subscribe-input-holder {
+    position: relative;
+}
+
+.subscribe-input-holder input {
+    padding: 10px;
+    border-radius: 999px;
+    width: 100%;
+    border: 1px solid #4d4d4d;
+}
+
+.subscribe-input-holder input:focus {
+    border: 1px solid black;
+}
+
+.subscribe-input-holder button {
+    border-radius: 999px;
+    padding: 6px;
+    position: absolute;
+    top: 3.5px;
+    right: 3.5px;
 }

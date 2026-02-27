@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-vector/watercolour-texture-background_1048-7456.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+input,
+textarea {
+    width: 95%;
+    background-color: rgb(223, 223, 223);
+    border: 0px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 10px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+textarea {
+    height: 90px;
+    resize: none;
+}
+
+.btn-holder {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-holder>button {
+    padding: 7px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    background-image: url("https://img.freepik.com/premium-vector/watercolour-texture-background_1048-7456.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.btn-holder>button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+div+p {
+    text-align: center;
+}
+
+a,
+img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.dp {
+    text-align: center;
+
+}
+
+@media (max-width: 600px) {
+  .form{
+    width: fit-content;
+  }
+  p{
+    font-size: 8px;
+  }
+}
