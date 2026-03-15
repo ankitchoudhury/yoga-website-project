@@ -1,0 +1,18 @@
+#darkmode-icon{
+    width: 30px;
+    cursor:pointer;
+    margin-left: 5px;
+    /* background-color: white; */
+}
+.nav-link{
+    flex: 1;
+    text-align:right;
+}
+body.darkmode{
+    background-color: rgb(39, 39, 39);
+}
+
+body.darkmode #darkmode-icon{
+    background-color: rgba(255, 254, 254, 0.903);
+    border-radius: 5px;
+}

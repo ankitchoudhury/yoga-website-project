@@ -19,6 +19,16 @@
     gap: 20px;
     backdrop-filter: blur(10px);
 }
+button img{
+    width: 30px;
+    object-fit: cover;
+}
+button{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.278) ;
+    height:30px;
+    border-radius: 5px;
+}
 
 .fade-animation {
     animation: fade 0.3s ease-in-out;
