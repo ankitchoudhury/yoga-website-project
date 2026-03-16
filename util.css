@@ -19,14 +19,16 @@
     gap: 20px;
     backdrop-filter: blur(10px);
 }
-button img{
+
+button img {
     width: 30px;
     object-fit: cover;
 }
-button{
+
+button {
     background-color: white;
-    border: 1px solid rgba(128, 128, 128, 0.278) ;
-    height:30px;
+    border: 1px solid rgba(128, 128, 128, 0.278);
+    height: 30px;
     border-radius: 5px;
 }
 
@@ -35,7 +37,7 @@ button{
 }
 
 @keyframes fade {
-    from {
+    from {  
         opacity: 0;
 
     }
