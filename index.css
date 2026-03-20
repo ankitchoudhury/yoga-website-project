@@ -679,3 +679,7 @@ nav button {
     top: 3.5px;
     right: 3.5px;
 }
+html,body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }

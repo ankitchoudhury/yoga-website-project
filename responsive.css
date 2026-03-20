@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+*{
+    /* outline: 5px solid red; */
+}
+   
     nav a {
         display: none;
     }
@@ -204,4 +208,15 @@
         display: none;
     }
 
+}
+.card-heading-holder>button{
+padding: 5px;
+}
+.fotter{
+    margin-top: -30px;
+}
+.fade-animation a{
+    color: #333;
+    font-weight: 500;
+    text-transform: capitalize;
 }
